@@ -1,0 +1,57 @@
+{
+  "name": "pebble-ui",
+  "version": "1.0.0",
+  "description": "Storybook",
+  "main": "./dist/pebble-ui.cjs.js",
+  "module": "./dist/pebble-ui.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/pebble-ui.js",
+      "require": "./dist/pebble-ui.cjs.js"
+    },
+    "./styles.css": "./dist/style.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build": "tsc --noEmit -p tsconfig.json && vite build",
+    "build:storybook": "storybook build",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinderahul/pebble-ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shinderahul/pebble-ui/issues"
+  },
+  "homepage": "https://github.com/shinderahul/pebble-ui#readme",
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-docs": "^10.4.6",
+    "@storybook/react-vite": "^10.4.6",
+    "@types/node": "^25.9.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "storybook": "^10.4.6",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.16",
+    "vite-plugin-dts": "^5.0.2"
+  }
+}

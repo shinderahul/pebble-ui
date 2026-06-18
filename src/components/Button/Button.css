@@ -1,0 +1,24 @@
+.mcl-btn {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 18px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.mcl-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.mcl-btn-primary {
+  background-color: #6366f1;
+  color: #ffffff;
+}
+
+.mcl-btn-secondary {
+  background-color: #e5e7eb;
+  color: #111827;
+}
