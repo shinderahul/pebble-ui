@@ -1,6 +1,9 @@
 {
   "name": "shinderahul-pebble-ui",
   "version": "1.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Storybook",
   "main": "./dist/pebble-ui.cjs.js",
   "module": "./dist/pebble-ui.js",
