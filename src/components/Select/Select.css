@@ -1,0 +1,4 @@
+.pb-select { display: flex; flex-direction: column; gap: 6px; }
+.pb-select__label { font-size: 13px; font-weight: 600; color: var(--pb-color-text); }
+.pb-select__control { border: 1px solid var(--pb-color-border-strong); border-radius: var(--pb-radius-md); padding: 8px 12px; background: var(--pb-color-surface); color: var(--pb-color-text); }
+.pb-select__helper { margin: 0; font-size: 12px; color: var(--pb-color-text-faint); }

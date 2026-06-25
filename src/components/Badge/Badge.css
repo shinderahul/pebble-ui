@@ -1,0 +1,5 @@
+.pb-badge { display: inline-flex; align-items: center; padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+.pb-badge--neutral { background: var(--pb-color-bg); color: var(--pb-color-text); }
+.pb-badge--primary { background: var(--pb-color-primary-50); color: var(--pb-color-primary); }
+.pb-badge--success { background: var(--pb-color-success-light); color: var(--pb-color-success); }
+.pb-badge--danger { background: var(--pb-color-danger-light); color: var(--pb-color-danger); }

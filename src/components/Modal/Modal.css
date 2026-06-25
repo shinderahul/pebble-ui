@@ -1,0 +1,4 @@
+.pb-modal-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,.35); display: flex; align-items: center; justify-content: center; padding: 16px; }
+.pb-modal { background: var(--pb-color-surface); border-radius: var(--pb-radius-lg); padding: 20px; min-width: 280px; max-width: 480px; width: 100%; }
+.pb-modal__title { font-size: 16px; font-weight: 600; margin-bottom: 12px; }
+.pb-modal__body { color: var(--pb-color-text); }
