@@ -1,9 +1,9 @@
 .mcl-btn {
   font-family: system-ui, -apple-system, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  padding: 8px 18px;
-  border-radius: 6px;
+  font-size: var(--mcl-font-size-sm);
+  font-weight: var(--mcl-font-weight-md);
+  padding: var(--mcl-spacing-sm) var(--mcl-spacing-md);
+  border-radius: var(--mcl-radius-sm);
   border: none;
   cursor: pointer;
 }
@@ -14,11 +14,11 @@
 }
 
 .mcl-btn-primary {
-  background-color: #6366f1;
-  color: #ffffff;
+  background-color: var(--mcl-color-primary);
+  color: var(--mcl-color-primary-contrast);
 }
 
 .mcl-btn-secondary {
-  background-color: #e5e7eb;
-  color: #111827;
+  background-color: var(--mcl-color-secondary);
+  color: var(--mcl-color-secondary-contrast);
 }
