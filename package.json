@@ -7,10 +7,10 @@
   "description": "Storybook 10 + Vite + React 18 + TypeScript + Jest + Testing Library + Sass",
   "main": "./dist/pebble-ui.cjs.js",
   "module": "./dist/pebble-ui.js",
-  "types": "./dist/index.d.ts",
+  "types": "./dist/src/index.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
+      "types": "./dist/src/index.d.ts",
       "import": "./dist/pebble-ui.js",
       "require": "./dist/pebble-ui.cjs.js"
     },
