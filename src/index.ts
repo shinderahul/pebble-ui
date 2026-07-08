@@ -1,4 +1,4 @@
-import './styles.scss';
+import '../src/styles/global.scss';
 export { Button } from './components/Button';
 export type { ButtonProps } from './components/Button';
 export { Input } from './components/Input';
