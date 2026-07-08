@@ -1,6 +1,6 @@
 {
   "name": "shinderahul-pebble-ui",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publishConfig": {
     "access": "public"
   },
@@ -35,7 +35,15 @@
     "type": "git",
     "url": "git+https://github.com/shinderahul/pebble-ui.git"
   },
-  "keywords": [],
+  "keywords": [
+    "storybook",
+    "vite",
+    "react",
+    "typescript",
+    "jest",
+    "testing-library",
+    "sass"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
