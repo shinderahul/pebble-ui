@@ -182,6 +182,12 @@ Stories:
 Button.stories.tsx
 ```
 
+## ✅ Import to other REPO
+```
+import { Badge } from 'shinderahul-pebble-ui'
+import 'shinderahul-pebble-ui/styles.css'; // For now you can use direct style import. I am working on it where user don't need to add style import
+```
+
 ---
 
 ## ✅ Best Practices
