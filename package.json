@@ -1,10 +1,10 @@
 {
   "name": "shinderahul-pebble-ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publishConfig": {
     "access": "public"
   },
-  "description": "Storybook",
+  "description": "Storybook 10 + Vite + React 18 + TypeScript + Jest + Testing Library + Sass",
   "main": "./dist/pebble-ui.cjs.js",
   "module": "./dist/pebble-ui.js",
   "types": "./dist/index.d.ts",
@@ -60,6 +60,7 @@
     "jest-environment-jsdom": "^29.7.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
+    "sass": "^1.101.0",
     "storybook": "^10.4.6",
     "ts-jest": "^29.3.1",
     "typescript": "^6.0.3",

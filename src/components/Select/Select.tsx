@@ -1,5 +1,5 @@
 import React, { useId, type ReactNode, type SelectHTMLAttributes } from 'react';
-import './Select.css';
+import './Select.scss';
 
 export interface SelectOption {
   value: string;

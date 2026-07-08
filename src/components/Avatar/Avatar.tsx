@@ -1,5 +1,5 @@
 import type { HTMLAttributes } from 'react';
-import './Avatar.css';
+import './Avatar.scss';
 
 export interface AvatarProps extends HTMLAttributes<HTMLSpanElement> {
   name?: string;

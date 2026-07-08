@@ -1,5 +1,5 @@
 import type { HTMLAttributes, ReactNode } from 'react';
-import './Modal.css';
+import './Modal.scss';
 
 export interface ModalProps extends Omit<HTMLAttributes<HTMLDivElement>, 'title'> {
   open?: boolean;

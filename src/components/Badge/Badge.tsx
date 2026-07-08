@@ -1,5 +1,5 @@
 import type { HTMLAttributes } from 'react';
-import './Badge.css';
+import './Badge.scss';
 
 export interface BadgeProps extends HTMLAttributes<HTMLSpanElement> {
   variant?: 'neutral' | 'primary' | 'success' | 'danger';

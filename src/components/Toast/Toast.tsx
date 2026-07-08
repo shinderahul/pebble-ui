@@ -1,5 +1,5 @@
 import type { HTMLAttributes, ReactNode } from 'react';
-import './Toast.css';
+import './Toast.scss';
 
 export interface ToastProps extends Omit<HTMLAttributes<HTMLDivElement>, 'title'> {
   title?: ReactNode;
