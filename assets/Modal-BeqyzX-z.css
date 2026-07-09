@@ -1,0 +1,1 @@
+.pb-modal-backdrop{background:#00000059;justify-content:center;align-items:center;padding:16px;display:flex;position:fixed;inset:0}.pb-modal{background:var(--pb-color-surface);border-radius:var(--pb-radius-lg);width:100%;min-width:280px;max-width:480px;padding:20px}.pb-modal__title{margin-bottom:12px;font-size:16px;font-weight:600}.pb-modal__body{color:var(--pb-color-text)}

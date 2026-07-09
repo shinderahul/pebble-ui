@@ -1,0 +1,5 @@
+import{i as e}from"./preload-helper-xPQekRTU.js";import{t}from"./jsx-runtime-BNO8td4Y.js";var n=e((()=>{})),r,i,a=e((()=>{n(),r=t(),i=({children:e,className:t=``,...n})=>(0,r.jsx)(`div`,{className:[`pb-card`,t].filter(Boolean).join(` `),...n,children:e}),i.__docgenInfo={description:``,methods:[],displayName:`Card`,props:{children:{required:!0,tsType:{name:`ReactNode`},description:``},className:{defaultValue:{value:`''`,computed:!1},required:!1}},composes:[`HTMLAttributes`]}})),o,s,c,l;e((()=>{a(),o=t(),s={title:`Components/Card`,component:i,tags:[`autodocs`]},c={args:{children:(0,o.jsx)(`div`,{children:`Card content`})}},c.parameters={...c.parameters,docs:{...c.parameters?.docs,source:{originalSource:`{
+  args: {
+    children: <div>Card content</div>
+  }
+}`,...c.parameters?.docs?.source}}},l=[`Default`]}))();export{c as Default,l as __namedExportsOrder,s as default};

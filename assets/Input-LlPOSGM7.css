@@ -1,0 +1,1 @@
+.pb-input{color:var(--pb-color-text);flex-direction:column;gap:6px;display:flex}.pb-input__label{font-size:13px;font-weight:600}.pb-input__control{border:1px solid var(--pb-color-border-strong);border-radius:var(--pb-radius-md);background:var(--pb-color-surface);color:var(--pb-color-text);padding:8px 12px}.pb-input__helper{color:var(--pb-color-text-faint);font-size:12px}

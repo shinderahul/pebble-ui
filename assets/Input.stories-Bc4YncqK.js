@@ -1,0 +1,7 @@
+import{i as e,s as t}from"./preload-helper-xPQekRTU.js";import{t as n}from"./iframe-hIB9MLOs.js";import{t as r}from"./jsx-runtime-BNO8td4Y.js";var i=e((()=>{})),a,o,s,c=e((()=>{a=t(n()),i(),o=r(),s=({label:e,helperText:t,className:n=``,id:r,...i})=>{let s=r??(0,a.useId)();return(0,o.jsxs)(`div`,{className:`pb-input`,children:[e&&(0,o.jsx)(`label`,{className:`pb-input__label`,htmlFor:s,children:e}),(0,o.jsx)(`input`,{id:s,className:[`pb-input__control`,n].filter(Boolean).join(` `),...i}),t&&(0,o.jsx)(`span`,{className:`pb-input__helper`,children:t})]})},s.__docgenInfo={description:``,methods:[],displayName:`Input`,props:{label:{required:!1,tsType:{name:`string`},description:``},helperText:{required:!1,tsType:{name:`ReactNode`},description:``},className:{defaultValue:{value:`''`,computed:!1},required:!1}},composes:[`InputHTMLAttributes`]}})),l,u,d;e((()=>{c(),l={title:`Components/Input`,component:s,tags:[`autodocs`]},u={args:{label:`Email`,placeholder:`Enter your email`,helperText:`We will never share your email.`}},u.parameters={...u.parameters,docs:{...u.parameters?.docs,source:{originalSource:`{
+  args: {
+    label: 'Email',
+    placeholder: 'Enter your email',
+    helperText: 'We will never share your email.'
+  }
+}`,...u.parameters?.docs?.source}}},d=[`Default`]}))();export{u as Default,d as __namedExportsOrder,l as default};

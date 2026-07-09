@@ -1,0 +1,7 @@
+import{i as e}from"./preload-helper-xPQekRTU.js";import{t}from"./jsx-runtime-BNO8td4Y.js";var n=e((()=>{})),r,i,a=e((()=>{n(),r=t(),i=({open:e=!1,title:t,children:n,className:i=``,...a})=>e?(0,r.jsx)(`div`,{className:`pb-modal-backdrop`,children:(0,r.jsxs)(`div`,{className:[`pb-modal`,i].filter(Boolean).join(` `),role:`dialog`,"aria-modal":`true`,...a,children:[t&&(0,r.jsx)(`div`,{className:`pb-modal__title`,children:t}),(0,r.jsx)(`div`,{className:`pb-modal__body`,children:n})]})}):null,i.__docgenInfo={description:``,methods:[],displayName:`Modal`,props:{open:{required:!1,tsType:{name:`boolean`},description:``,defaultValue:{value:`false`,computed:!1}},title:{required:!1,tsType:{name:`ReactNode`},description:``},children:{required:!0,tsType:{name:`ReactNode`},description:``},className:{defaultValue:{value:`''`,computed:!1},required:!1}},composes:[`Omit`]}})),o,s,c;e((()=>{a(),o={title:`Components/Modal`,component:i,tags:[`autodocs`]},s={args:{open:!0,title:`Edit profile`,children:`This is a modal body.`}},s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:`{
+  args: {
+    open: true,
+    title: 'Edit profile',
+    children: 'This is a modal body.'
+  }
+}`,...s.parameters?.docs?.source}}},c=[`Open`]}))();export{s as Open,c as __namedExportsOrder,o as default};
